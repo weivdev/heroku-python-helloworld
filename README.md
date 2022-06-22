@@ -16,6 +16,13 @@ This a simple Hello World Example showing how to create a simple python web app 
 - `$ pip install -r requirements.txt`
 - mark root folder as source.
 
+### Make sure have heroku installed
+```
+$ brew tap heroku/brew && brew install heroku
+to verify installiation
+$ heroku --version
+```
+
 ### Deploy to Heroku
 - Make sure you set `master` branch as the default branch in GitHub
 - `$ heroku login`
